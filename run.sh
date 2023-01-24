@@ -1,4 +1,5 @@
 #!/bin/bash
+ls -lths;
 QUOTE=$(cat bs.txt |  grep -P '\w+\s+\w+' | shuf -n 1)
 
 echo $(date)" => "$QUOTE
